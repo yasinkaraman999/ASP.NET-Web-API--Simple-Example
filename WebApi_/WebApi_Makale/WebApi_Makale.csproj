@@ -109,6 +109,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\illerIHttpActionResultController.cs" />
+    <Compile Include="Controllers\illerHttpResponseController.cs" />
     <Compile Include="Controllers\illerController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

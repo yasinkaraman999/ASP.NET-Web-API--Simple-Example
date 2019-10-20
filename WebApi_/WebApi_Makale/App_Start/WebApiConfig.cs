@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using WebApi_Makale.Filters;
 
 namespace WebApi_Makale
 {
@@ -13,7 +14,8 @@ namespace WebApi_Makale
             config.EnableCors();
             // Web API yolları
             config.MapHttpAttributeRoutes();
-
+            //ExceptionFilterAttribute
+            config.Filters.Add(new ApiExceptionAttribute());
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",

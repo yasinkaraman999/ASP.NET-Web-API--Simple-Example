@@ -6,6 +6,7 @@
     <edmx:Diagrams>
       <Diagram DiagramId="13470c1d4dd346b2b3b5c80b269cb989" Name="Diagram1">
         <EntityTypeShape EntityType="WebApiTestDatabaseModel.Sehir" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="WebApiTestDatabaseModel.ApiKey" Width="1.5" PointX="3.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

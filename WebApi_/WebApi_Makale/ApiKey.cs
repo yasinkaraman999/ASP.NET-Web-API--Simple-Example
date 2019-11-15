@@ -12,9 +12,9 @@ namespace WebApi_Makale
     using System;
     using System.Collections.Generic;
     
-    public partial class Sehir
+    public partial class ApiKey
     {
-        public int id { get; set; }
         public string name { get; set; }
+        public string apikey1 { get; set; }
     }
 }

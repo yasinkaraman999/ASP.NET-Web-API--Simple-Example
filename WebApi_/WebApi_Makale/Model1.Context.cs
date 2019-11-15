@@ -26,5 +26,6 @@ namespace WebApi_Makale
         }
     
         public virtual DbSet<Sehir> Sehir { get; set; }
+        public virtual DbSet<ApiKey> ApiKeys { get; set; }
     }
 }
